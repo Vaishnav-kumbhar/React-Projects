@@ -1,0 +1,37 @@
+.grid-wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 4rem;
+   justify-content: center;
+   align-items: center; 
+}
+.Grid {
+  height: 400px;
+  width: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -5rem 0px 0px 0px;
+}
+
+.turn-highlight {
+  color: #fff;
+}
+
+.turn-highlt {
+  margin-top: 1rem;
+  color: var(--font-color);
+}
+
+.reset {
+  padding: 5px 10px;
+  background-color: var(--font-color);
+  font-size: 1.5rem;
+  border: none;
+  
+}
+
+.reset:hover {
+  cursor: pointer;
+  background: #ffffff75;
+}
