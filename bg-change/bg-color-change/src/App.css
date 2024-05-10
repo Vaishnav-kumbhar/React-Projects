@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  gap: 5rem;
+  color: #000;
+  font-weight: 700;
+  background: #f4eeee;
+  width: 38rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 5rem;
+}
+
+.red {
+  background: rgb(255, 0, 0);
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.green {
+  background-color: #008000;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.yellow {
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.pink {
+  background-color: #ffc0cb;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.colors {
+  transition: all 0.3s linear;
+}
+
+.colors:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
