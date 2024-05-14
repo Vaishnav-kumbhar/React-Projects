@@ -1,0 +1,12 @@
+#pokeName {
+    width: 40rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+#pokeName:focus {
+    background-color: #d7cdcd;
+    color: #000;
+    border: none;
+}

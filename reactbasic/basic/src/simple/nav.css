@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  background-color: #0f0d0d;
+  height: 3rem;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+  transition: all 0.3s linear;
+  letter-spacing: 2px;
+  border-radius: 3rem;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #00ffff;
+}

@@ -1,0 +1,15 @@
+* {
+  padding: 0px;
+  outline: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#Poke-wrapper {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin-top: 4rem;
+  gap: 2rem
+  ;
+}
