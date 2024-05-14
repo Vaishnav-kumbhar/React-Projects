@@ -13,7 +13,7 @@ function App() {
           body.style.backgroundColor = color;
         }}
       >
-        <div>red</div>
+        <div>Red</div>
       </div>
       <div
         className="colors green"
