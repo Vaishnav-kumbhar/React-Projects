@@ -1,13 +1,13 @@
 import { useState } from "react";
 import Poke from "./components/pokedex/poke";
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
     <div id="Poke-wrapper">
-    < Poke/>
+      <Poke />
     </div>
-  ) 
+  );
 }
 
 export default App;
